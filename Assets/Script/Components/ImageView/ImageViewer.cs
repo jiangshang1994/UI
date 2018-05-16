@@ -12,7 +12,7 @@ namespace Assets.Controll
     /// <summary>
     /// 使用image展示3d对象。原对象不受影响
     /// </summary>
-    public class ImageViewer:EventTrigger
+    public class ImageViewer:EventTrigger 
     {
         public int renderWidth = 256;
         public int renderHeight = 256;
