@@ -16,5 +16,6 @@ namespace Assets.Script.Components.Menu
         void RemoveEvent(EventTriggerType eventTrigger, EventTrigger.Entry entry);
         void RemoveAllChild();
         void RemoveAllEvent();
+
     }
 }

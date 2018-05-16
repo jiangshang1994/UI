@@ -214,22 +214,24 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/soft/unityBeta/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="UIDll">
+      <HintPath>Assets/Plugins/UIDll.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/jiangshang/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>C:/Users/jiangshang/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
-    <Reference Include="UIDll">
-      <HintPath>Assets/Plugins/UIDll.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Animation\UIAnimation.cs" />
     <Compile Include="Assets\Script\Audio\AudioChanel.cs" />
-    <Compile Include="Assets\Script\Controll\DropDown.cs" />
-    <Compile Include="Assets\Script\Controll\ImageViewer.cs" />
-    <Compile Include="Assets\Script\Controll\testScript.cs" />
+    <Compile Include="Assets\Script\Components\DropsDown\DropDown.cs" />
+    <Compile Include="Assets\Script\Components\ImageView\ImageViewer.cs" />
+    <Compile Include="Assets\Script\Components\Menu\AbstractNodeMenu.cs" />
+    <Compile Include="Assets\Script\Components\Menu\IMenu.cs" />
+    <Compile Include="Assets\Script\Components\testScript.cs" />
     <Compile Include="Assets\Script\Enviorment\GlobeUpdate.cs" />
     <Compile Include="Assets\Script\Enviorment\NewBehaviourScript.cs" />
     <Compile Include="Assets\Script\Manage\AudioManager.cs" />
