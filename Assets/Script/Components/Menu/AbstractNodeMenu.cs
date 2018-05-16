@@ -17,6 +17,7 @@ namespace Assets.Script.Components.Menu
             DisableClickEvent();
         }
 
+
         protected override void Start()
         {
             base.Start();
