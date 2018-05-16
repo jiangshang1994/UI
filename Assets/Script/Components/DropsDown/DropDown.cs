@@ -19,7 +19,7 @@
         private GUIStyle gUIStyle;
         private ObservebleValues<T> itemList;
         private T onFocusItem;
-
+         
         public DropDown(String text, T[] items){ }
 
         public DropDown(T[] items) : this("", items)
